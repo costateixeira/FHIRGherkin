@@ -11,8 +11,7 @@ To use them in a narrative page, use the following syntax:
 
 Gherkin files are rendered with syntax highlighting:
 
-{% include gherkin_file file="test.feature" %}
-
+(TO DO)
 <br/>
 
 
