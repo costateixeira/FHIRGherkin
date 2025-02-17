@@ -132,8 +132,15 @@ menu:
 # The following are simple examples to demonstrate what this might
 # look like:
 #
-# resources:
-#   Patient/my-example-patient:
+resources:
+  TestPlan/TestPlan1:
+    extension: 
+      - url: "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"
+        valueCode: "text/x-gherkin"
+    description: TestPlan1
+    name: TestPlan1
+
+
 #     name: My Example Patient
 #     description: An example Patient
 #     exampleBoolean: true
