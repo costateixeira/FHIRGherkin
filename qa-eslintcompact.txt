@@ -1,0 +1,31 @@
+nocontent
+=========================================
+
+Generic: line 0, col 0, Error - Error converting pacakge to R4B: Error processing example/Binary-BGherkin.json:  (EXCEPTION)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "http://example.org/example-pub..." cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/Binary-BGherkin.json: line 1, col 2, Error - Unable to find Adjunct Binary test.feature (NOTFOUND)
+/github/workspace/fsh-generated/resources/Binary-BGherkin.json: line 5, col 35, Error - The value 'ig-loader-test.feature' is not a valid Base64 value (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-nocontent.json: line 1, col 12378, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
+/github/workspace/fsh-generated/resources/TestPlan-TestPlan1.json: line 1, col 395, Warning - Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided (INVALID)
+/github/workspace/fsh-generated/resources/TestPlan-TestPlan1.json: line 0, col 0, Info - The resource TestPlan/TestPlan1 could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root) (BUSINESSRULE)
+
+err = 3, warn = 6, info = 1
+IG Publisher Version: 1.8.13

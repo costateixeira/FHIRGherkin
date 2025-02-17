@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="BGherkin"/>
+  <contentType value="text/x-gherkin"/>
+  <data value="ig-loader-test.feature"/>
+</Binary>

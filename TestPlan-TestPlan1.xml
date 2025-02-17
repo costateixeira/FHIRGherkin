@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="TestPlan1"/>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.url">
+    <valueUri value="http://example.org/TestPlan/TestPlan1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.status">
+    <valueCode value="active"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.date">
+    <valueDateTime value="2025-02-17T07:07:23+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.publisher">
+    <valueString value="Example Publisher"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.contact">
+    <valueContactDetail>
+      <name value="Example Publisher"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://example.org/example-publisher"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.jurisdiction"/>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun">
+      <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script">
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.language">
+          <valueCodeableConcept>
+            <coding>
+              <code value="text/x-gherkin"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.sourceReference">
+          <valueReference>
+            <reference value="Binary/BGherkin"/>
+          </valueReference>
+        </extension>
+      </extension>
+    </extension>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="TestPlan"/>
+    </coding>
+  </code>
+</Basic>

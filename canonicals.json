@@ -1,0 +1,15 @@
+[
+  {
+    "id" : "nocontent",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/nocontent",
+    "version" : "0.1.0",
+    "name" : "nocontent"
+  },
+  {
+    "id" : "TestPlan1",
+    "type" : "TestPlan",
+    "url" : "http://example.org/TestPlan/TestPlan1",
+    "version" : "0.1.0"
+  }
+]

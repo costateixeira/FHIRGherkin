@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://example.org/Basic/TestPlan1> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TestPlan1"] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.url"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:uri ;
+       fhir:v "http://example.org/TestPlan/TestPlan1"^^xsd:anyURI
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.version"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "0.1.0"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.status"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:code ;
+       fhir:v "active"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.date"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:dateTime ;
+       fhir:v "2025-02-17T07:07:23+00:00"^^xsd:dateTime
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.publisher"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:string ;
+       fhir:v "Example Publisher"
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.contact"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Example Publisher" ] ;
+       fhir:telecom ( [
+         fhir:system [ fhir:v "url" ] ;
+         fhir:value [ fhir:v "http://example.org/example-publisher" ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.jurisdiction"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.language"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:CodeableConcept ;
+             fhir:coding ( [
+               fhir:code [ fhir:v "text/x-gherkin" ]
+             ] )
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.sourceReference"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:Reference ;
+             fhir:link <http://example.org/Binary/BGherkin> ;
+             fhir:reference [ fhir:v "Binary/BGherkin" ]
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script"^^xsd:anyURI ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun"^^xsd:anyURI ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "TestPlan" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

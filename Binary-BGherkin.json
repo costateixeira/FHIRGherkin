@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "BGherkin",
+  "contentType" : "text/x-gherkin",
+  "data" : "ig-loader-test.feature"
+}

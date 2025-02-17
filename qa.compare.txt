@@ -1,0 +1,40 @@
+nocontent : Validation Results
+=========================================
+
+err = 3, warn = 6, info = 1
+$--
+Generated $--. FHIR version $-- for nocontent#$-- (canonical = http://example.org)
+ Build Errors : 16 / 4 / 0
+ /github/workspace/fsh-generated/resources/Binary-BGherkin : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-nocontent : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/TestPlan-TestPlan1 : 0 / 1 / 2
+</table>
+== n/a ==
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/Binary-BGherkin.json: 
+ERROR: /github/workspace/output/Binary-BGherkin.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/Binary-BGherkin.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/Binary-BGherkin.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/Binary-BGherkin.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/Binary-BGherkin.xml.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.html#/html/body/div/div/div/div/div/div/p/a at Line 212, column 206: The link 'http://example.org/example-publisher' for "http://example.org/example-pub..." cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.ttl.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/TestPlan-TestPlan1.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 182, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 216, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://example.org/example-publisher' for "Example Publisher" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-BGherkin.json ==
+ERROR: Binary: Unable to find Adjunct Binary test.feature
+ERROR: Binary/BGherkin: Binary.data: The value 'ig-loader-test.feature' is not a valid Base64 value
+== fsh-generated/resources/ImplementationGuide-nocontent.json ==
+WARNING: ImplementationGuide/nocontent: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+== fsh-generated/resources/TestPlan-TestPlan1.json ==
+WARNING: TestPlan/TestPlan1: TestPlan.testCase[0].testRun[0].script.language.coding[0]: Coding has no system. A code with no system has no defined meaning, and it cannot be validated. A system should be provided
+INFORMATION: Resource: The resource TestPlan/TestPlan1 could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

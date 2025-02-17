@@ -1,0 +1,66 @@
+{
+  "resourceType" : "Basic",
+  "id" : "TestPlan1",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.url",
+    "valueUri" : "http://example.org/TestPlan/TestPlan1"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.version",
+    "valueString" : "0.1.0"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.status",
+    "valueCode" : "active"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.date",
+    "valueDateTime" : "2025-02-17T07:07:23+00:00"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.publisher",
+    "valueString" : "Example Publisher"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.contact",
+    "valueContactDetail" : {
+      "name" : "Example Publisher",
+      "telecom" : [{
+        "system" : "url",
+        "value" : "http://example.org/example-publisher"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.jurisdiction"
+  },
+  {
+    "extension" : [{
+      "extension" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.language",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "code" : "text/x-gherkin"
+            }]
+          }
+        },
+        {
+          "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.sourceReference",
+          "valueReference" : {
+            "reference" : "Binary/BGherkin"
+          }
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun"
+    }],
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/fhir-types",
+      "code" : "TestPlan"
+    }]
+  }
+}
