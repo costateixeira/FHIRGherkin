@@ -64,9 +64,9 @@ publisher:
 #
 parameters:
   path-pages:
-    - tests/features
+    - input/tests/features
   path-binary:
-    - tests/features
+    - input/tests/features
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
